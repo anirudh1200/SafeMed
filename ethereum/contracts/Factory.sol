@@ -102,7 +102,7 @@ contract Patient{
         require(msg.sender==_patient);
         _;
     }
-
+om
     function adddoc(address _doc)public restrict_patient{
         _doctors[_doc]=true;
     }
